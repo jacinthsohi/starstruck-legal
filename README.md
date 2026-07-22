@@ -1,6 +1,6 @@
 # Starstruck — Privacy Policy
 
-_Last updated: July 15, 2026_
+_Last updated: July 20, 2026_
 
 Starstruck ("we", "us") is a dining journal that lets you log Michelin-starred
 restaurant visits and share them with friends. This policy explains what we
@@ -15,10 +15,21 @@ collect and why. Plain English, no surprises.
   optional profile photo you choose to upload.
 - **Your content.** The visits you log (restaurant, date, your rating and notes),
   photos you add to a visit, and the friends/companions you connect with or tag.
+- **Trips and reservations.** Trips you create (a name, and an optional
+  destination and dates), the restaurants you shortlist on them, and any booking
+  details you enter yourself — date and time, party size, and notes. We have no
+  access to your accounts on Resy, OpenTable, Tock or any other booking service.
+  When you tap through to reserve, that happens on their site, not ours; anything
+  we show about a booking is what you typed in.
+- **Photo suggestions.** With your permission, Starstruck reads the location
+  saved inside your own photos to suggest ones you took at a restaurant. That
+  matching happens **on your device** — we only ever receive the photos you
+  choose to add to a visit. Starstruck does not use your device's location.
 - **Social graph.** Your friend connections, dining-club memberships, and any
   users you block or report.
 - **Notifications.** If you enable push notifications, a device token so we can
-  send them.
+  send them. See [Notifications](#notifications) below for what we send and how
+  to control it.
 - **Diagnostics.** Basic technical data needed to operate the app.
 
 We do **not** track you across other apps or websites, and we do **not** sell
@@ -47,6 +58,29 @@ keep the community safe. That's it.
 - We use **Supabase** (our hosting provider) to store data securely. Access is
   protected by per-user database security rules.
 
+## Notifications
+
+If you turn push notifications on, we store a device token so we can send them.
+We use it only for the alerts below — never for advertising — and we don't share
+or sell it.
+
+You choose which kinds you receive in **Account → Notifications**:
+
+- **Added to a visit** — someone tagged you as a companion.
+- **Photos added to a visit** — someone added photos to a visit you were on.
+- **Added to a dining club.**
+- **Friend requests.**
+- **Memories** — occasional "a year ago today" reminders of your past visits. You
+  can also hide specific people or clubs from memories, or hide one memory.
+- **Log a booked meal** — after a reservation you saved to a Trip has passed, a
+  reminder to log it. We never create a visit for you; the reminder only opens
+  the form, prefilled, for you to confirm or ignore.
+- **Product news** — occasional updates about new features.
+
+Each type is independent: turning off **Product news** has no effect on the
+others, and turning off any one of them leaves the rest working. You can also
+turn off all Starstruck notifications from your device's own Settings app.
+
 ## Safety & moderation
 
 You can **block** any user (they can't find, add, or see you) and **report**
@@ -62,6 +96,8 @@ Apple's private relay, that's fully supported.
 
 - **Choose what you share** anytime in Account → Privacy & sharing (discoverability
   and per-category sharing).
+- **Choose which notifications you get** anytime in Account → Notifications,
+  including turning off product news on its own.
 - **Block or report** other users from their profile or a search result.
 - **Edit or delete content** anytime in the app.
 - **Delete your account** anytime from the Account screen ("Delete Account"). This
