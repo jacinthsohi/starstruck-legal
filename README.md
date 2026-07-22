@@ -21,6 +21,11 @@ collect and why. Plain English, no surprises.
   access to your accounts on Resy, OpenTable, Tock or any other booking service.
   When you tap through to reserve, that happens on their site, not ours; anything
   we show about a booking is what you typed in.
+- **Shared trips.** You can invite friends to plan a trip with you. Everyone on
+  a trip can see and edit that trip's restaurants and booking details, and can
+  see who else is on it. Only the person who created the trip can invite or
+  remove people, or delete it; anyone else can leave at any time. A trip is
+  visible only to the people on it.
 - **Photo suggestions.** With your permission, Starstruck reads the location
   saved inside your own photos to suggest ones you took at a restaurant. That
   matching happens **on your device** — we only ever receive the photos you
@@ -69,6 +74,7 @@ You choose which kinds you receive in **Account → Notifications**:
 - **Added to a visit** — someone tagged you as a companion.
 - **Photos added to a visit** — someone added photos to a visit you were on.
 - **Added to a dining club.**
+- **Added to a trip** — a friend invited you to plan a trip with them.
 - **Friend requests.**
 - **Memories** — occasional "a year ago today" reminders of your past visits. You
   can also hide specific people or clubs from memories, or hide one memory.
