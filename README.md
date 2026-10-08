@@ -1,6 +1,6 @@
 # Starstruck — Privacy Policy
 
-_Last updated: July 20, 2026_
+_Last updated: October 8, 2026_
 
 Starstruck ("we", "us") is a dining journal that lets you log Michelin-starred
 restaurant visits and share them with friends. This policy explains what we
@@ -26,6 +26,16 @@ collect and why. Plain English, no surprises.
   see who else is on it. Only the person who created the trip can invite or
   remove people, or delete it; anyone else can leave at any time. A trip is
   visible only to the people on it.
+- **Forwarded reservations (optional).** Every account has a private Starstruck
+  email address (Account → Import Reservations). If you forward a reservation
+  confirmation to it, we extract the restaurant, the date and the booking
+  platform, show them to you as a proposal, and keep only those three things —
+  not the email. See [Reservation import](#optional-features) for how that
+  works and who processes it.
+- **Home city (optional).** You can tell us where you eat most, so we can
+  suggest starred restaurants you may already have been to. To pre-fill that
+  list we also record your device's time zone and region setting. Your home
+  city is visible only to you — never to other users.
 - **Photo suggestions.** With your permission, Starstruck reads the location
   saved inside your own photos to suggest ones you took at a restaurant. That
   matching happens **on your device** — we only ever receive the photos you
@@ -61,7 +71,10 @@ keep the community safe. That's it.
 - Your **notes and photos** are visible only to you and the confirmed companions
   on a visit — never to friends who weren't there.
 - We use **Supabase** (our hosting provider) to store data securely. Access is
-  protected by per-user database security rules.
+  protected by per-user database security rules. **Resend** handles email we
+  receive or send, and **Anthropic** processes the text of a forwarded
+  reservation only when our own software can't read it (see Optional features).
+  None of these providers use your data for their own purposes.
 
 ## Notifications
 
@@ -113,10 +126,21 @@ Apple's private relay, that's fully supported.
 
 ## Optional features
 
-- **Reservation import (opt-in).** You can connect Gmail to import restaurant
-  reservations (e.g., Resy/Tock/OpenTable confirmations). This uses **read-only**
-  access and only reads reservation-related messages. It's off unless you turn it
-  on, and you can disconnect anytime.
+- **Reservation import (forward an email).** Nothing happens unless you forward
+  a confirmation (e.g., Resy, OpenTable, Tock, SevenRooms, Yelp) to your private
+  Starstruck address. The message is received by **Resend**, our email provider,
+  and read by our own software, which picks out the restaurant, date and
+  platform. If our software can't read a message on its own, we send the text
+  of that one email to **Anthropic** (the Claude API) to extract those same
+  three fields; Anthropic processes it under its commercial terms, which do not
+  allow it to train models on that data. Marketing and reminder emails are
+  discarded. We never store the email itself, and we never ask for access to
+  your mailbox. Every proposal shows up in your Inbox for you to confirm or
+  dismiss; nothing is logged as a visit without you.
+- **Gmail connection (limited availability).** An earlier version let you
+  connect Gmail directly with read-only access to reservation emails. That
+  option is not shown in the app at the moment; if we bring it back, it will
+  remain opt-in and you will be able to disconnect at any time.
 - **Finding friends from contacts (future).** We may later let you find friends
   who are already on Starstruck. If we do, it will be opt-in and use privacy-
   preserving matching (we compare scrambled values, not your raw address book).
@@ -132,4 +156,4 @@ We'll update this page and the "Last updated" date if this policy changes.
 
 ---
 
-_Starstruck is a project of Beverly Place (Jacinth Sohi). Contact: help@starstruck.club._
+_Starstruck is made by Beverly Place Studios LLC. Contact: help@starstruck.club._
