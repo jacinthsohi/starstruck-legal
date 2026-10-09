@@ -1,8 +1,9 @@
 # Starstruck — Terms of Service
 
-_Last updated: July 15, 2026_
+_Last updated: October 8, 2026_
 
-By using Starstruck, you agree to these terms.
+By using Starstruck, you agree to these terms. Our [Privacy Policy](README.md)
+explains what we collect and why.
 
 ## The service
 
@@ -46,13 +47,35 @@ We aim to act on reports of objectionable content promptly.
 ## Restaurant data
 
 Michelin star information in the app is compiled from public sources for reference
-and may be incomplete or out of date. It is not affiliated with or endorsed by the
-Michelin Guide.
+and may be incomplete or out of date. Starstruck is an independent app and is not
+affiliated with, endorsed by, or sponsored by the MICHELIN Guide or Michelin;
+Michelin star ratings and restaurant names are used for identification only.
+
+The way we have assembled, organized, corrected and dated that information — the
+restaurant catalog, star histories and related data in the app — is our work and
+is protected by copyright and database rights. You may use it inside the app for
+your own personal, non-commercial dining journal.
 
 ## Acceptable use
 
-Don't abuse the service: no scraping, no attempts to break security or access other
-users' data, and no automated or bulk activity.
+Don't abuse the service. In particular, you agree not to:
+
+- access the app or its servers by any automated means (scrapers, bots, scripts,
+  or API calls outside the app) or attempt to bypass rate limits or security;
+- extract, copy, export or download the restaurant catalog, star histories or any
+  other data in bulk, by any method, including screenshots at scale;
+- republish, sell, license or redistribute data from the app, or use it to build
+  or train a competing product, dataset, model or service;
+- access other users' data except as the app's sharing features allow;
+- send unsolicited messages or perform automated or bulk activity.
+
+We may suspend or terminate accounts that do any of the above and may take
+further action where the law allows.
+
+## Trademarks
+
+"Starstruck" and the fork-and-star mark are trademarks of Beverly Place Studios
+LLC. Don't use them in a way that suggests we made or endorse something we didn't.
 
 ## Disclaimers & liability
 
@@ -66,3 +89,7 @@ We may update these terms; continued use means you accept the changes.
 ## Contact
 
 Questions: **help@starstruck.club**.
+
+---
+
+_Starstruck is made by Beverly Place Studios LLC._
