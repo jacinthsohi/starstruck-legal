@@ -1,6 +1,6 @@
 # Starstruck — Terms of Service
 
-_Last updated: October 8, 2026_
+_Last updated: October 12, 2026_
 
 By using Starstruck, you agree to these terms. Our [Privacy Policy](README.md)
 explains what we collect and why.
@@ -14,7 +14,7 @@ friends. It's provided "as is," and we may change or discontinue features.
 
 - You're responsible for your account and the content you post (notes, photos,
   ratings, username, display name).
-- You must be 17 or older.
+- You must be 13 or older.
 - You can delete your account anytime from the Account screen.
 
 ## Your username
