@@ -14,7 +14,7 @@ friends. It's provided "as is," and we may change or discontinue features.
 
 - You're responsible for your account and the content you post (notes, photos,
   ratings, username, display name).
-- You must be 13 or older.
+- You must be 18 or older.
 - You can delete your account anytime from the Account screen.
 
 ## Your username
